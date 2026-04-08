@@ -1,0 +1,31 @@
+a {
+   color: green;
+   font-weight: bold;
+   font-size: 20px;
+}
+section {
+    border: 5px solid green;
+    color: white;
+    width: 600px;
+    margin: auto;
+}
+body {
+    background:rgba(68, 190, 204, 0.8);
+}
+h1 {
+        font-style: italic;
+        text-align: center;
+}
+img {
+        float: right;
+}
+section > p {
+    font-size: 20px;
+    text-align: center;
+}
+nav {
+    text-align: center;
+}
+p {
+    font-size: 18px;
+}
