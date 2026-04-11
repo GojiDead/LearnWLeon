@@ -1,0 +1,46 @@
+#main {
+    border: 1px solid black;
+    max-width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+    }
+.flex {
+    display:flex;
+        width: 1200px;
+        height: 120px;
+    border: 1px solid black;
+}
+
+.flex1 {
+    display:flex;
+        width: 1200px;
+        height: 500px;
+    border: 1px solid black;
+}
+.flex2 {
+    display:flex;
+        width: 600px;
+    border: 1px solid black;
+}
+.flex3 {
+    display:flex;
+        width: 1200px;
+    border: 1px solid black;
+}
+.flex4 {
+    display:flex;
+        width: 600px;
+    border: 1px solid black;
+}
+.flex5 {
+    display:flex;
+        width: 600px;
+    border: 1px solid black;
+}
+.flex6 {
+    display:flex;
+        width: 1200px;
+        height: 176px;
+        px;
+    border: 1px solid black;
+}
