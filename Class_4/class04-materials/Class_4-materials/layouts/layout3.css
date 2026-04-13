@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;/*ignore the border*/
+}
+
+header,footer {
+    border: 1px solid black;
+    height: 200px;
+    clear: both;
+}
+section #one, #three, #four{
+    height: 500px;
+    width: 22.740%;
+    border: 1px solid black;
+    float: left;
+}
+#two{
+        height: 500px;
+        width: 600px;
+        border: 1px solid black;
+        float: left;
+}
+section{
+    width:100%;
+}

@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;/*ignore the border*/
+}
+
+header,footer {
+    border: 1px solid black;
+    height: 160px;
+    clear: both;
+}
+.middle{
+    height: 300px;
+    width: 33.3333%;
+    border: 3px solid black;
+    float: left;
+}
+.middle2{
+    height: 300px;
+    width: 66.6679%;
+    border: 3px solid black;
+    float: left;
+}
+#one {
+        border: 1px solid black;
+        height: 280px;
+        clear: both;/*look for the floats and move out from under them*/
+}
