@@ -1,0 +1,10 @@
+section{
+    border: 1px solid black;
+    width: 33.22%;
+    height: 400px;
+    float: left;
+}
+header, footer{
+    border: 1px solid black;
+    height: 200px;
+    clear: both;
