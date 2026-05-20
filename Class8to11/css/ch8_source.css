@@ -1,0 +1,119 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+    background: rgb(255 245 219);
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+nav {
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+ul{
+    display:flex;
+    justify-content: space-between;
+    aligh-items: center;
+    flex-basis:25%;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 3em;
+    color: black;
+}
+.headCenter{
+    font-size: 2em;
+}
+.button{
+    background: black;
+    color: white;
+    padding:5px;
+}
+#main{
+    display: flex;
+    height: 600px;
+}
+#mainBox{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+    flex-basis: 50%;
+    font-size: 2em;
+    padding: 0 0 0 400px;
+}
+#mid{
+    display: flex;
+    height: 400px;
+}
+#midBox{
+    flex-basis: 25%;
+     padding: 0 0 0 400px;
+}
+#bottom{
+    height: 400px;
+     padding: 0 0 0 400px;
+}
+#nextButton{
+        background: black;
+        color: white;
+        padding:5px;
+        font-size: 1em;
+}
+input{
+    width: 400px;
+    height: 50px;
+}
+img{
+    width: 600px;
+}
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+@media screen and (max-width: 900px) {
+    #main{
+        display:flex;
+        flex-direction:column;
+    }
+     .headCenter, .button, #midBox, #bottom{
+        display:none;
+    }
+    #mainBox{
+
+        padding: 0 0 0 0px;
+    }
+    #source{
+        justify-content:flex-start;
+    }
+
+}

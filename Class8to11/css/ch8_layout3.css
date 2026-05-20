@@ -1,0 +1,131 @@
+/* Box Model Hack */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+html{
+    font-size: 62.5%;
+    background: rgb(255, 251, 222)
+}
+nav, ul{
+  display: flex;
+  justify-content: space-around;
+}
+ul{
+  list-style: none;
+
+}
+nav{
+    background: black;
+    padding: 0;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    height: 40px;
+    font-size: 2em;
+    padding: 10px 40px 10px 10px;
+    border-right: 1px solid white;
+    color: white;
+}
+#top{
+  display: flex;
+  font-size: 2em;
+  justify-content: space-evenly;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+main section + section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 35%;
+}
+.container{
+  display: flex;
+  margin: 0 0 0 315px;
+  font-size: 2em;
+  width: 76%;
+}
+.adjust{
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    padding: 10px 0 0 0;
+}
+body > h2{
+    font-size: 4em;
+    padding: 0 0 0 315px;
+}
+#israel{
+    width: 150%;
+}
+#topL{
+    width: 150%;
+}
+#topR{
+    width: 131%;
+    padding: 0 0 0 160px;
+}
+#bottomL{
+    width: 145%;
+}
+#bottomR{
+    width: 128%;
+    padding: 0 0 0 160px;
+}
+.box1 img, .box2 img, .box3 img{
+    width: 150%;
+}
+.box1{
+    width: 400px;
+}
+.box2{
+    width: 390px;
+    margin: 0 0 0 220px;
+}
+.box3{
+    width: 388px;
+    margin: 0 0 0 230px;
+}
+p{
+  padding: 0 0 20px 0;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
